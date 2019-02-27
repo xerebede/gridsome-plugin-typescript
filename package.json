@@ -1,0 +1,27 @@
+{
+  "name": "gridsome-plugin-typescript",
+  "description": "Typescript plugin for Gridsome",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/cleitonper/gridsome-plugin-typescript",
+  "bugs": "https://github.com/cleitonper/gridsome-plugin-typescript/issues",
+  "homepage": "https://github.com/cleitonper/gridsome-plugin-typescript#readme",
+  "author": "Cleiton <ceiton.spereira@live.com>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=10.15.0"
+  },
+  "keywords": [
+    "gridsome",
+    "gridsome-plugin",
+    "gridsome-typescript",
+    "typescript"
+  ],
+  "dependencies": {
+    "typescript": "^3.3.0",
+    "ts-loader": "^5.3.0"
+  }
+}
