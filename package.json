@@ -21,7 +21,7 @@
     "typescript"
   ],
   "dependencies": {
-    "typescript": "^3.3.0",
-    "ts-loader": "^5.3.0"
+    "typescript": "3.3.3333",
+    "ts-loader": "5.3.3"
   }
 }
