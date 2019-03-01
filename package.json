@@ -1,7 +1,7 @@
 {
   "name": "gridsome-plugin-typescript",
   "description": "Typescript plugin for Gridsome",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index.js",
   "repository": "https://github.com/cleitonper/gridsome-plugin-typescript",
   "bugs": "https://github.com/cleitonper/gridsome-plugin-typescript/issues",
