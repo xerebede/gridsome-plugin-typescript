@@ -10,9 +10,9 @@ This plugin enable Typescript lang inside yours `*.vue` **Single File Components
 
 In order to work with this plugin you'll need to install the dependencies below. Choose one method of your preference to install it.
 
-* `yarn add -D typescript gridsome-plugin-typescript`
-* `npm install -D typescript gridsome-plugin-typescript`
-* add `typescript` and `typescript gridsome-plugin-typescript` in `devDependencies` section in your `package.json` file.
+* `yarn add -D typescript ts-loader gridsome-plugin-typescript`
+* `npm install -D typescript ts-loader gridsome-plugin-typescript`
+* add `typescript`, `ts-loader`, and `gridsome-plugin-typescript` in `devDependencies` section in your `package.json` file.
 
 ### Usage
 
