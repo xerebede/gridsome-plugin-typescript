@@ -1,12 +1,13 @@
 {
-  "name": "gridsome-plugin-typescript",
+  "name": "gridsome-awesome-typescript",
   "description": "Typescript plugin for Gridsome",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "main": "index.js",
-  "repository": "https://github.com/cleitonper/gridsome-plugin-typescript",
-  "bugs": "https://github.com/cleitonper/gridsome-plugin-typescript/issues",
-  "homepage": "https://github.com/cleitonper/gridsome-plugin-typescript#readme",
+  "repository": "https://github.com/oshnix/gridsome-plugin-typescript",
   "author": "Cleiton <ceiton.spereira@live.com>",
+  "contributors": [
+    "Oshnix <sdsdaniil@gmail.com>"
+  ],
   "license": "MIT",
   "publishConfig": {
     "access": "public"
@@ -20,8 +21,11 @@
     "gridsome-typescript",
     "typescript"
   ],
-  "dependencies": {
-    "typescript": "3.4.5",
-    "ts-loader": "5.3.3"
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "typescript": "^3.2.2"
+  },
+  "peerDependencies": {
+    "gridsome": "^0.6.3"
   }
 }

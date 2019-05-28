@@ -6,7 +6,7 @@ function TypescriptPlugin (api) {
       .rule('typescript')
         .test(/\.tsx?$/)
         .use()
-          .loader('ts-loader')
+          .loader('awesome-typescript-loader')
           .options({ appendTsSuffixTo: [/\.vue$/] });
 
     config.resolve.extensions
