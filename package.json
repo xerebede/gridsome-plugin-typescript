@@ -1,7 +1,7 @@
 {
   "name": "gridsome-awesome-typescript",
   "description": "Typescript plugin for Gridsome",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "index.js",
   "repository": "https://github.com/oshnix/gridsome-plugin-typescript",
   "author": "Cleiton <ceiton.spereira@live.com>",
@@ -21,7 +21,7 @@
     "gridsome-typescript",
     "typescript"
   ],
-  "devDependencies": {
+  "dependencies": {
     "awesome-typescript-loader": "^5.2.1",
     "typescript": "^3.2.2"
   },
