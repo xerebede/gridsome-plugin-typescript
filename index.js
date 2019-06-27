@@ -10,7 +10,7 @@ function TypescriptPlugin (api) {
           .options({ appendTsSuffixTo: [/\.vue$/] });
 
     config.resolve.extensions
-      .add('ts');
+      .add('.ts');
 
     config.resolve.alias
       .set('vue$', resolve(process.cwd(), './node_modules/vue/dist/vue.esm.js'));
