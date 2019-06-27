@@ -28,8 +28,9 @@
     "gridsome-typescript",
     "typescript"
   ],
-  "dependencies": {
-    "typescript": "3.4.5",
-    "ts-loader": "5.3.3"
+  "peerDependencies": {
+    "gridsome": "*",
+    "typescript": "*",
+    "ts-loader": "*"
   }
 }
