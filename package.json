@@ -32,5 +32,19 @@
     "gridsome": "*",
     "typescript": "*",
     "ts-loader": "*"
+  },
+  "devDependencies": {
+    "husky": "2.7.0",
+    "git-branch-is": "2.1.0",
+    "@commitlint/cli": "8.0.0",
+    "@commitlint/config-conventional": "8.0.0"
+  },
+  "commitlint": {
+    "extends": [ "@commitlint/config-conventional" ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "if git-branch-is --quiet master; then commitlint -E HUSKY_GIT_PARAMS; fi"
+    }
   }
 }
