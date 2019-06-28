@@ -86,6 +86,10 @@ declare module "*.vue" {
 </script>
 ```
 
+### Want to contribute
+
+If you want to contribute through code or documentation, the [Contributing guide](CONTRIBUTING.md) is the best place to start. If you have questions, feel free to ask.
+
 ### Related
 
 * [Typescript Starter for Gridsome](https://github.com/cleitonper/gridsome-starter-typescript#readme)
