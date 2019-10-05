@@ -1,5 +1,3 @@
-const { resolve } = require('path');
-
 function TypescriptPlugin (api) {
   api.chainWebpack((config) => {
     config.module
@@ -13,7 +11,7 @@ function TypescriptPlugin (api) {
       .add('.ts');
 
     config.resolve.alias
-      .set('vue$', resolve(process.cwd(), './node_modules/vue/dist/vue.esm.js'));
+      .set('vue$', require.resolve('vue/dist/vue.esm.js'));
   });
 }
 
