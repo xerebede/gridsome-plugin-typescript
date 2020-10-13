@@ -2,7 +2,7 @@
 
 > Typescript plugin for Gridsome
 
-### Quick orview
+### Quick overview
 
 This plugin enable Typescript lang inside yours `*.vue` **Single File Components**.
 
