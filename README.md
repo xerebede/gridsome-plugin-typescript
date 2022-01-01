@@ -56,7 +56,9 @@ declare module "*.vue" {
 }
 ```
 
-**4.** For now, you can use `lang="ts"` in your `*.vue` files like this:
+**4.** Rename your index.js file to index.ts if not done automatically.
+
+**5.** For now, you can use `lang="ts"` in your `*.vue` files like this:
 
 ```html
 <script lang="ts">
